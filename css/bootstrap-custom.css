@@ -1,0 +1,85 @@
+/* ==========================================
+   BOOTSTRAP CUSTOM
+   Camila Aguilar | Portfolio
+   ========================================== */
+
+
+/* ---------- NAVBAR ---------- */
+
+.navbar {
+    border-bottom: 1px solid transparent;
+}
+
+.navbar .container {
+    max-width: 1200px;
+}
+
+.navbar-toggler {
+    padding: 5px 8px;
+}
+
+.navbar-toggler:hover {
+    color: #B9788C;
+}
+
+
+/* ---------- BOOTSTRAP BUTTONS ---------- */
+
+.btn {
+    border-radius: 0;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+
+/* ---------- BOOTSTRAP CARDS ---------- */
+
+.card {
+    border-radius: 0;
+}
+
+
+/* ---------- BOOTSTRAP CONTAINERS ---------- */
+
+.container {
+    width: 100%;
+}
+
+
+/* ---------- BOOTSTRAP ROWS ---------- */
+
+.row {
+   /* ---------- BOOTSTRAP ROWS ---------- */
+
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* ---------- RESPONSIVE NAVBAR ---------- */
+
+@media (max-width: 991px) {
+
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .navbar-collapse {
+        background-color: #FBF8F5;
+    }
+
+}
+
+
+/* ---------- RESPONSIVE CONTAINERS ---------- */
+
+@media (min-width: 1200px) {
+
+    .container {
+        max-width: 1200px;
+    }
+
+}
